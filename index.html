@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="static/css/styles.css">
+
+        <title>My Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"> Sourav Sehgal </a>
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list grid">
+                            <li class="nav__item">
+                                <a href="#home" class="nav__link active-link">
+                                    <i class="uil uil-home nav__icon"></i> Home
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">
+                                    <i class="uil uil-user nav__icon"></i> About Me
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#skills" class="nav__link">
+                                   <i class="uil uil-file-alt nav__icon"></i> Skills
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#portfolio" class="nav__link">
+                                    <i class="uil uil-user nav__icon"></i> Projects
+                                </a>
+                            </li>
+                            
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link">
+                                    <i class="uil uil-message nav__icon"></i> Contact Me
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="static/SouravSehgal.pdf" target="_blank" class="nav__link">
+                                    <i class="uil uil-file nav__icon"></i> Resume
+                                </a>
+                            </li>
+                        </ul>
+                        <i class="uil uil-times nav__close" id="nav-close"></i>
+                    </div>
+                    <div class="nav__btns">
+                        <i class="uil uil-moon change-theme" id="theme-button"></i>
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class="uil uil-apps"></i>  
+            </nav>
+        </header>
+            
+                        
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/sourav-sehgal-7a746b201/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/SouravSehgal-3009" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                            <a href="https://souravsehgal-3009.github.io/SouravSehgal/" target="_blank" class="home__social-icon">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                            </a>
+                            
+                        </div>
+                        <div class="home__img">
+                                <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <mask id="mask0" mask-type="alpha">
+                                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    </mask>
+                                    <g mask="url(#mask0)">
+                                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                        <image class="home__blob-img" x="15" y="35"  xlink:href="static/img/user.png"/>
+                                    </g>
+                                </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title"> Hi, I am Sourav </h1>
+                            <h3 class="home__subtitle"> Web Developer </h3>
+                            <p class="home__description"> I am an enthusiastic Web Developer with a keen 
+                            interest in the fields of Machine Learning and Deep Learning </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+            
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title"> About Me </h2>
+                <span class="section__subtitle"> My Introduction </span>
+                <div class="about__container container grid">
+                    <img src="static/img/Sourav.png" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description"> I am persuing my BTech third year in Computer Science at IIT Mandi. I am an enthusiastic Web Developer with a keen interest in the fields of Machine Learning and Deep Learning. I am
+                        always eager to learn new things. I believe that with my hard work and learning skills, I can solve any challenge that
+                        comes ahead and will prove useful to the company.</p>
+                    </div>
+                    
+
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title"> Skills</h2>
+                <span class="section__subtitle"> My Technical Skills </span>
+                <div class="skills__container container grid">
+                    <div>
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title"> Programming Languages </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> C++ </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                    <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Python </h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-alt skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title"> Web Development </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> HTML </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> CSS </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Javascript </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Flask </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Django </h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-database skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title"> Databases </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> MySQL </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> MongoDB </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-robot skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title"> Machine Learning </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Regression </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Dimensionality Reduction </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Classification </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Clustering </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-channel skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title"> Frameworks </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Numpy </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Pandas </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Scikit-Learn </h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <i class="uil uil-caret-right data__icon"></i>
+                                        <h3 class="skills__name"> Beautiful Soup </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title"> Projects </h2>
+                <span class="section__subtitle"> See My Work </span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="static/img/project1.png" alt="" class="portfolio__img">
+                            <div class="portfolio__data"> 
+                                <h3 class="portfolio__title">VTON - Virtual Try-On </h3>
+                                <p class="portfolio__description"> Created a Virtual Try-On network using UNet and other Computer Vision Algorithms. 
+                                This was deployed using Google Colab and Github. This project helps a person to see how he/she will look after trying some clothes but in a virtual Way. </p>
+                                <a href="https://github.com/priyanshu-shubham/AOIHack30" target="_blank" class="button button--flex button--small portfolio__button">
+                                View Project &nbsp;
+                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="static/img/project2.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data"> 
+                                <h3 class="portfolio__title">Eventima- Event Management System </h3>
+                                <p class="portfolio__description"> EvenTima is an event management django based webapp. It can help in managing the events smoothly in which they can
+                                    manage all the events, the team members of the event and people who are participating in that event. </p>
+                                <a href="https://github.com/SouravSehgal-3009/Eventima" target="_blank" class="button button--flex button--small portfolio__button">
+                                View Project &nbsp;
+                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="static/img/project3.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data"> 
+                                <h3 class="portfolio__title">Almanac- To Do App </h3>
+                                <p class="portfolio__description"> Almanac is a Django based To-Do-App where you can add the tasks you have to do with task description and task priority level. Almanac will store your data forever unless you delete it.
+                                Almanac provides you with multiple features like sorting the tasks by their priority level and searching the task by its title. </p>
+                                <a href="https://github.com/SouravSehgal-3009/Almanac-To-Do-App" target="_blank" class="button button--flex button--small portfolio__button">
+                                View Project &nbsp;
+                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="static/img/project4.png" alt="" class="portfolio__img">
+                            <div class="portfolio__data"> 
+                                <h3 class="portfolio__title">Machine Learning Models </h3>
+                                <p class="portfolio__description"> A predictive analysis on some large datasets using various Machine Learning models like Linear Regression, Logistic Regression,
+                                    Decision Trees, Random Forests, KNN etc. </p>
+                                <a href="https://github.com/SouravSehgal-3009/Machine-Learning-Models" target="_blank" class="button button--flex button--small portfolio__button">
+                                View Project &nbsp;  
+                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </section>
+
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title"> Contact Me </h2>
+                <span class="section__subtitle"> Get in Touch </span>
+
+                <div class="contact__container container grid">
+                    <div class="contact-info">
+
+                        <div class="contact__information">
+                            <i class="uil uil-phone-alt contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title"> Call Me </h3>
+                                <span class="contact__subtitle">+91-8872120199 </span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title"> Email  </h3>
+                                <span class="contact__subtitle">souravsehgal2001@gmail.com </span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title"> Location  </h3>
+                                <span class="contact__subtitle">Kotkapura, Punjab <br> India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-box">
+                        <form action="https://formspree.io/f/xwkaraad" method="POST" class="contact__form grid">
+                            <div class="contact__inputs grid">
+                                    
+                                    <div class="contact__content">
+                                        <label for="name" class="contact__label" required min='4'> Name </label>
+                                        <input type="text" class="contact__input" name="Name" id="name" required autofocus >
+                                    </div>
+
+                                    <div class="contact__content">
+                                        <label for="email" class="contact__label"> Email </label>
+                                        <input type="email" class="contact__input" id="email" name="Email" required>
+                                    </div>
+
+                                    <div class="contact__content">
+                                        <label for="subject" class="contact__label"> Subject </label>
+                                        <input type="text" class="contact__input" id="subject" name="Subject" required>
+                                    </div>
+                                    
+                                    <div class="contact__content">
+                                        <label for="message" class="contact__label"> Message </label>
+                                        <textarea cols="0" rows="7" class="contact__input" id="message" name="Message" required></textarea>
+                                    </div>
+
+                                    <div>
+                                        <input type="submit" class="button button--flex submit-btn" value="Send Message">
+                                    
+                                    </div>
+
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+                    
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title"> Sourav Sehgal </h1>
+                        <span class="footer__subtitle"> Web Developer </span>
+                    </div>
+
+                    
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/sourav.sehgal.777" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/sourav_sehgal3009/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Sourav Sehgal. All rights reserved </p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="static/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="static/js/main.js"></script>
+    </body>
+</html>
